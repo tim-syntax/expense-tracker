@@ -1,0 +1,50 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Secrets & local env (keep examples tracked)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Build outputs
+dist
+build
+.turbo
+*.tsbuildinfo
+
+# Vite
+.vite
+
+# Serverless / Lambda packaging
+.serverless
+.webpack
+.esbuild
+
+# Test / coverage
+coverage
+.nyc_output
+*.lcov
+
+# Logs & debug
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors (optional; uncomment if you don’t want editor prefs in git)
+# .vscode/
+# .idea/
+
+# Misc
+*.local
+.cache
+tmp
+temp
